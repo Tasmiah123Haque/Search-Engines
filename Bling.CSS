@@ -1,0 +1,13 @@
+*
+{
+    margin: auto;
+    background-image: url(../img/flower.jpeg);
+    font-family: Arial, Helvetica, sans-serif;
+    
+} 
+.box{
+    align-items:right;
+    justify-content:right;
+    display:flex;
+   
+}
