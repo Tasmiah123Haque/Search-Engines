@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+section 
+{
+    position:relative;
+    width:100%;
+    display:flex;
+    justify-content:;
+    align-items: right;
+    min-height:100vh;
+    flex-direction: column;
+    align-content:right;
+    flex-wrap: nowrap;
+} 
+section header 
+{
+    position:absolute;
+    top:0;
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+    padding:20px;
+} 
+section header ul 
+{
+    display:flex;
+    justify-content: right;
+    align-items: right;
+} 
+section.header.ul.li
+{
+    list-style:none;
+    margin-left: 20px;
+} 
+section header ul li a
+{
+    
+    text-decoration: none;
+    font-size: 13px;
+} 
+section header ul button
+{
+  color:blue;
+  border:none;
+  outline:none;
+  padding:8px 14px;
+  color:#fff
+  font-size:14px;
+  font-weight:700;
+  border-radius:3px;
+  cursor:pointer;
+} 
+section .main
+{
+    width:580px;
+    display:flex;
+    flex-direction: column;
+    align-items:right;
+    justify-content:right;
+
+} 
+section .main .searchBox 
+{
+    position:relative;
+    width:100%;
+    margin-top: 20px;
+} 
+section .main .searchBox .searchBox
+{
+width:100%;
+padding:13px;
+padding-left: 45px;
+padding-right: 60px;
+border-radius: 30px;
+border: 1px solid #ccc;;
+} 
+section .main .searchBox .icons
+{
+    position:absolute;
+    top:0;
+    width:100%;
+    display:flex;
+    padding:12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+} 
+section .main .buttons
+{
+    margin-top: 20px;
+} 
+section .main .buttons button
+{ 
+    margin: 0.5px;
+    padding:12px 20px;
+    color:#555;
+    font-size: 14px;
+    border:none;
+    cursor:pointer;
+    border-radius: 4px;
+    border:1px solid transparent;
+    outline:none;
+} 
+section .main .buttons button:hover
+{
+    border:1px solid #ccc;
+}
+
+
+
+
+
+
